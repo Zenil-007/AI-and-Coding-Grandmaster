@@ -1,0 +1,49 @@
+/* Global CSS */
+*{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 10px;
+}
+
+/* External CSS (h3) */
+h3{
+    color: white;
+    background: linear-gradient(90deg, #007BFF, #00C6FF);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Element Selector (h4) */
+h4{
+    color: palevioletred;
+    border-left: 6px solid palevioletred;
+    padding-left: 10px;
+}
+
+/* Class Selector */
+.myclass{
+    color: darkorange;
+    background-color: #fff3e0;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid darkorange;
+}
+
+/* ID Selector */
+#myid{
+    color: mediumpurple;
+    background-color: #f3e8ff;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px dashed mediumpurple;
+}
+
+/* Group Selector */
+h5, p{
+    color: maroon;
+    background-color: #ffe6e6;
+    padding: 6px;
+    border-radius: 5px;
+}
